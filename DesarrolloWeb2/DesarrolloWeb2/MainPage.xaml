@@ -4,11 +4,8 @@
              x:Class="DesarrolloWeb2.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Spiderverse!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        
-        
+        <WebView Source="https://apex.oracle.com/pls/apex/proyetoautolote/r/proyectoautolote/login?session=104799172698994"
+         VerticalOptions="FillAndExpand" />        
        
     </StackLayout>
 
